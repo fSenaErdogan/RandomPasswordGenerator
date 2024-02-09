@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Random Password Generator
 
-## Getting Started
+## Proje Hakkında
 
-First, run the development server:
+Random Password Generator, kullanıcılara güçlü ve güvenli şifreler oluşturmak için hızlı ve kolay bir yol sunan bir Python uygulamasıdır. Bu araç, belirli kriterlere göre rastgele şifreler üretir, böylece kullanıcıların çevrimiçi hesaplarını daha iyi korumalarına yardımcı olur.
+
+## Özellikler
+
+- Kullanıcı tanımlı uzunlukta rastgele şifreler oluşturabilir.
+- Büyük harf, küçük harf, rakam ve özel karakterler dahil olmak üzere çeşitli karakter türlerini destekler.
+- Kullanımı kolay ve hızlı bir arayüze sahiptir.
+
+## Başlarken
+
+Bu bölüm, Random Password Generator'ın nasıl kurulacağını ve kullanılacağını açıklar.
+
+### Gereksinimler
+
+- Node.js 20
+
+### Kurulum
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/fSenaErdogan/RandomPasswordGenerator.git
+npm install
+```
+
+### Kullanım
+
+Random Password Generator'ı kullanmak için, terminal veya komut satırınızda aşağıdaki komutu çalıştırın:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Demo Image :
+![Random Password Generator Demo-Odrena](https://i.hizliresim.com/i5xty7m.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
