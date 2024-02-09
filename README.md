@@ -37,6 +37,6 @@ npm run build && npm start
 ```
 
 
-Demo Image :
+### Demo Image
 ![Random Password Generator Demo-Odrena](https://i.hizliresim.com/i5xty7m.png)
 
